@@ -15,6 +15,7 @@ while run:
         print("Ganhou")
     else:
         print("Você escreveu como se fosse um animal, escreve melhor pfv")
+        print("modificando")
 
     continuar = str(input("Quer continuar? [S/N] \n> ")).upper()
     if continuar == "S":
