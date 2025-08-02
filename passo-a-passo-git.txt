@@ -1,0 +1,17 @@
+# Passo 1: Navegue até a pasta do projeto
+cd /caminho/para/seu/projeto
+
+# Passo 2: Inicialize o repositório Git
+git init
+
+# Passo 3: Adicione o arquivo
+git add meu_arquivo.txt
+
+# Passo 4: Crie um commit
+git commit -m "Adicionando meu_arquivo.txt"
+
+# Passo 5: Conecte-se ao repositório remoto (se necessário)
+git remote add origin https://github.com/seu-usuario/seu-repositorio.git
+
+# Passo 6: Envie as alterações
+git push -u origin main
