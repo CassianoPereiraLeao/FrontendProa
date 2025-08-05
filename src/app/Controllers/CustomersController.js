@@ -18,7 +18,7 @@ class CustomersController {
     }
 
     async create(req, res) {
-        var { name } = req.body;
+        var { name, email } = req.body;
 
         var customer = await Customer.create({
             name,
