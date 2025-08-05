@@ -5,9 +5,7 @@
 !.yarn/sdks
 !.yarn/versions
 .editorconfig
-src/config
-src/database
-
+src/config/
 # Whether you use PnP or not, the node_modules folder is often used to store
 # build artifacts that should be gitignored
 node_modules
