@@ -4,7 +4,7 @@ class ContactController {
     }
 
     async show(req, res) {
-
+        res.json("Hello");
     }
 
     async create(req, res) {
