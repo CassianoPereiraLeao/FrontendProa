@@ -29,7 +29,7 @@ class CustomersController {
     }
 
     update(req, res) {
-        
+        return res.json("Ainda não implementado");
     }
 
     delete(req, res) {
